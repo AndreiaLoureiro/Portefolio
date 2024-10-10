@@ -9,7 +9,6 @@ import java.util.Scanner;
  */
 public class Excecao02 {
 
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         try {
@@ -18,6 +17,7 @@ public class Excecao02 {
             
             // Tentativa de conversão
             int numero = Integer.parseInt(input);
+            
             System.out.println("O número digitado é: " + numero);
         } catch (NumberFormatException e) {
             System.out.println("Erro: Você não digitou um número válido.");
